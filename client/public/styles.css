@@ -1,0 +1,42 @@
+body{
+    margin: auto;
+    text-align: center;
+    background-color: #faf3e0   ;
+}
+.search{
+    margin: auto;
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.flag{
+    width: 50px;
+}
+.countryTable{
+    margin: auto;
+    width: 90%;
+    font-size: 1rem;
+}
+.brand{
+    background-color: #85603f;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.loader{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+button{
+    margin-top: 20px;
+}
+@media only screen and (max-width: 575px) {
+    .countryTable{
+        font-size: 9px;
+    }
+    .flag{
+        width: 20px;
+    }
+  }
